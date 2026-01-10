@@ -135,7 +135,7 @@ h2{
 /* Member blog links */
 .link-list{
   list-style: none;
-  padding: 0;
+  padding: 0 2rem 0 2rem;
   margin: 0;
 }
 
