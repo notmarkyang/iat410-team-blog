@@ -83,7 +83,7 @@ h1{
 }
 
 .card-thinner{
-  max-width: 40rem;
+  max-width: 30rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -148,7 +148,6 @@ h2{
 
 .link-list .link:hover{
   background: rgba(45, 51, 107, 0.18);
-  transform: translateY(-1px);
 }
 
 .link-list li{
