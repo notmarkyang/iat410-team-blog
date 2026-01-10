@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team Zootopia — Member Blogs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Team Zootopia</h1>
+      <p class="subtitle">Individual Blog Links</p>
+
+      <nav class="nav">
+        <a href="index.html">Main</a>
+        <a href="blog.html">Blog</a>
+        <a class="active" href="links.html">Member Blogs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Team Member Blogs</h2>
+      <p class="meta">Add everyone’s GitHub Pages blog link here.</p>
+
+      <ul class="link-list">
+        <li>
+          <span class="name">Mark Yang</span>
+          <a class="link" href="https://notmarkyang.github.io/iat410-individual-blog/" target="_blank" rel="noopener">
+            notmarkyang.github.io/iat410-individual-blog
+          </a>
+        </li>
+
+        <li>
+          <span class="name">Member Name</span>
+          <a class="link" href="#" target="_blank" rel="noopener">their-link-here</a>
+        </li>
+
+        <li>
+          <span class="name">Member Name</span>
+          <a class="link" href="#" target="_blank" rel="noopener">their-link-here</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Team Zootopia</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
