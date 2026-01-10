@@ -57,7 +57,7 @@ h1{
   padding: 0.5rem 0.9rem;
   border-radius: 999px;
   font-weight: 600;
-  transition: background 0.25s ease;
+  transition: background 0.4s ease;
 }
 
 .nav a.active{
@@ -150,7 +150,7 @@ h2{
   font-weight: 600;
   text-decoration: none;   
   border: none;           
-  transition: background 0.15s ease;
+  transition: background 0.4s ease;
 }
 
 .link-list .link:hover{
