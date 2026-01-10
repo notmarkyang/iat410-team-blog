@@ -135,7 +135,7 @@ h2{
   margin: 0;
 }
 
-/* Member blog "Visit" button */
+/* Member blog button (the visit one) */
 .link-list .link{
   background: rgba(45, 51, 107, 0.08);
   color: var(--navy);
