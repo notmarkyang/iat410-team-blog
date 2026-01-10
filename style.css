@@ -135,6 +135,22 @@ h2{
   margin: 0;
 }
 
+.link-list .link{
+  border: none;
+  background: rgba(45, 51, 107, 0.08); 
+  color: var(--navy);
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.link-list .link:hover{
+  background: rgba(45, 51, 107, 0.18);
+  transform: translateY(-1px);
+}
+
 .link-list li{
   display: flex;
   gap: 1rem;
