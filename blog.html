@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team Zootopia — Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Team Zootopia</h1>
+      <p class="subtitle">Group Blog Updates</p>
+
+      <nav class="nav">
+        <a href="index.html">Main</a>
+        <a class="active" href="blog.html">Blog</a>
+        <a href="links.html">Member Blogs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Week 1–2: Project Setup</h2>
+      <p class="meta">Date: Jan 10, 2026</p>
+      <p>
+        We ... umm ... yeah ...
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Week 3–4: …</h2>
+      <p class="meta">Date: NA </p>
+      <p>Coming soon!</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Team Zootopia</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
