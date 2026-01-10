@@ -65,6 +65,10 @@ h1{
   border-color: var(--navy);
 }
 
+.nav a:hover{
+  color: #1f2450; 
+}
+
 /* Layout container */
 .container{
   max-width: 900px;
