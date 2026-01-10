@@ -152,7 +152,6 @@ h2{
   background: rgba(45, 51, 107, 0.16);
 }
 
-
 .link-list li{
   display: flex;
   gap: 1rem;
@@ -177,6 +176,7 @@ h2{
 }
 
 .link:hover{
+  
 }
 
 /* Footer */
