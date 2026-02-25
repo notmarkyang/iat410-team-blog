@@ -138,6 +138,41 @@ h2 {
   margin-top: 1.5rem;
 }
 
+.team-member-center{
+  text-align: center;
+}
+
+.member-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.member-button {
+  display: block;
+  max-width: 10rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.9rem 1rem;
+  background: rgba(7, 11, 44, 0.14);
+  color: var(--navy);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Only rounding animation */
+.hvr-round-corners {
+  transition: border-radius 0.3s ease;
+}
+
+.hvr-round-corners:hover {
+  border-radius: 18px;
+}
+
 /* Sweep-style back button */
 .back-button {
   display: inline-block;
@@ -165,7 +200,7 @@ h2 {
 }
 
 /* keep text above overlay */
-.back-button span{
+.back-button span {
   position: relative;
   z-index: 1;
 }
@@ -202,47 +237,6 @@ h2 {
 
 .button:hover {
   opacity: 0.92;
-}
-
-/* member blog links */
-.link-list {
-  list-style: none;
-  padding: 0 2rem 0 2rem;
-  margin: 0;
-}
-
-/* member blog button (the visit one) */
-.link-list .link {
-  background: rgba(45, 51, 107, 0.08);
-  color: var(--navy);
-  padding: 0.35rem 0.85rem;
-  border-radius: 999px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background 0.4s ease;
-}
-
-.link-list .link:hover {
-  background: rgba(45, 51, 107, 0.16);
-}
-
-.link-list li {
-  display: flex;
-  gap: 1rem;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.9rem 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.07);
-}
-
-.link-list li:first-child {
-  border-top: none;
-}
-
-.name {
-  font-weight: 700;
-  color: var(--navy);
 }
 
 .link {
